@@ -17,3 +17,10 @@ marp -w index.md
 ```bash
 marp -s ./
 ```
+
+
+### Export the Deck
+
+```bash
+marp index.md -o lambda-stream.pdf --allow-local-files
+```
